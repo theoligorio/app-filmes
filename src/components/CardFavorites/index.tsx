@@ -10,7 +10,7 @@ import {
   StarIcon,
   StarRating,
   TextButtonFavorite,
-  TtileMovie,
+  TitleMovie,
   VoteAverage
 } from "./style";
 
@@ -86,7 +86,7 @@ export function CardFavorites({ data }: CardFavoritesProps) {
         source={{ uri: `https://image.tmdb.org/t/p/w500${data.poster_path}` }}
       />
       <Assessment>
-        <TtileMovie>{data.title}</TtileMovie>
+        <TitleMovie>{data.title}</TitleMovie>
         <StarRating>
           <AlignStar>
             <StarIcon name="star" />

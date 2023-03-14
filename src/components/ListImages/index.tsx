@@ -114,11 +114,9 @@ export function ListImages({ data }: PropsImagesMovies) {
           }
         >
           <InfoIcon name="infocirlceo" />
-          <TextButtonInfo>Info.</TextButtonInfo>
         </ButtonInfo>
         <ButtonAdd onPress={handleDoneToggle} activeOpacity={0.7}>
           <AddIcon name={data.favorite ? "check" : "plus"} />
-          <TextButtonAdd>Minha Lista</TextButtonAdd>
         </ButtonAdd>
       </Buttons>
     </Container>

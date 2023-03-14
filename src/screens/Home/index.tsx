@@ -82,7 +82,7 @@ export function Home() {
           <MoviesInTheaters
             style={{ marginBottom: window.height <= 780 ? -20 : 0 }}
           >
-            <TitleMoviesInTheaters>Em cartaz</TitleMoviesInTheaters>
+            <TitleMoviesInTheaters>No cinema</TitleMoviesInTheaters>
             <FlatList
               data={moviesPopular}
               horizontal={true}

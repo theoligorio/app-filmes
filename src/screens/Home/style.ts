@@ -3,7 +3,7 @@ import { Feather } from "@expo/vector-icons";
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #12293e;
+  background-color: #000;
   padding: 0 20px;
 `;
 
@@ -42,7 +42,7 @@ export const MoviesInTheaters = styled.View``;
 
 export const TitleMoviesInTheaters = styled.Text`
   color: #fff;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 20px 0;
+  margin: 20px 0px;
 `;

@@ -17,7 +17,7 @@ export const ImageMovie = styled.Image`
   border-radius: 5px;
 `;
 
-export const TtileMovie = styled.Text`
+export const TitleMovie = styled.Text`
   color: #fff;
   font-size: 16px;
   font-weight: bold;
