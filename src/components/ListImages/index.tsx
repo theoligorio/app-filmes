@@ -42,7 +42,7 @@ export function ListImages({ data }: PropsImagesMovies) {
 
   function handleDoneToggle() {
     // Referência para a coleção de filmes no Firebase
-    const moviesRef = firestore().collection("Filmes");
+    const moviesRef = firestore().collection("Favoritos");
 
     moviesRef
     .where("id", "==", `${data.id}`)

@@ -3,15 +3,15 @@ import { Feather } from "@expo/vector-icons";
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #0d0d0d;
+  background-color: #12293e;
   padding: 0 20px;
 `;
 
 export const Title = styled.Text`
-  color: red;
+  color: #f5810a;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 100px;
 `;
 
 export const Header = styled.View`
@@ -34,7 +34,9 @@ export const MenuIcon = styled(Feather)`
   font-size: 30px;
 `;
 
-export const ButtonSearch = styled.TouchableOpacity``;
+export const ButtonSearch = styled.TouchableOpacity`
+  color: #000;
+`;
 
 export const MoviesInTheaters = styled.View``;
 
